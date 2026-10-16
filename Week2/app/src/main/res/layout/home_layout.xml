@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Campus"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/loginButton_id"
+                    android:onClick="openAccount"
+                    android:layout_width="72dp"
+                    android:layout_height="64dp"
+                    android:text="SR"
+                    android:contentDescription="Open my account" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your student space"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/demo_placeholder"
+                android:gravity="center"
+                android:text="MAIN IMAGE\n\nPlaceholder"
+                android:textColor="#493365"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to your campus"
+                android:textSize="24sp"
+                android:layout_marginBottom="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tap the avatar above to sign in and view your profile."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:baselineAligned="false">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/demo_placeholder"
+            android:gravity="center"
+            android:text="⌂\nHome"
+            android:textColor="#493365"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/demo_placeholder"
+            android:gravity="center"
+            android:text="□\nCourses"
+            android:textColor="#493365"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/demo_placeholder"
+            android:gravity="center"
+            android:text="▤\nNotices"
+            android:textColor="#493365"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/demo_placeholder"
+            android:gravity="center"
+            android:text="○\nMore"
+            android:textColor="#493365"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
